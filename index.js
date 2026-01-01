@@ -1,14 +1,14 @@
+
 let iphone =[];
 let currentPage = 1;
 let itemPerPage = 4;
 
 fetch('product.json')
   .then(response => response.json())
-  .then(data =>{
-    iphone = data;
+  .then(value =>{
+    iphone = value;
     renderPage();
-  })
-  .catch(error => console.log(error));
+  });
 
 
 function renderPage(){
