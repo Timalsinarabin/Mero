@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Timalsinarabin/Mero/compare/v1.1.0...v1.1.1) (2026-01-04)
+
+
+### Bug Fixes
+
+* removed unnecessary categories ([225a2da](https://github.com/Timalsinarabin/Mero/commit/225a2da049f2098975c9fca9c66a50b1d875b2d1))
+
 ## 1.1.0 (2026-01-04)
 
 
