@@ -15,7 +15,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "release": "standard-version"
   },
   "dependencies": {
     "acorn": "^8.15.0",
@@ -89,6 +90,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "eslint": "^9.39.2"
+    "eslint": "^9.39.2",
+    "standard-version": "^9.5.0"
   }
 }
