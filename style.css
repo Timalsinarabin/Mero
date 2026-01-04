@@ -133,11 +133,15 @@ footer{
     gap: 15px;
     justify-content: center;
 }
-.pagenav .curr{
-    width: 20px;
-    height: 20px;
+.pagenav .curr,.next,.prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
     border: 1px solid black;
-    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
 }
 @media (max-width:900px){
     .main{
